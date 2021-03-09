@@ -1,0 +1,5 @@
+deposit = float(input())
+term = int(input())
+annual_percentage_rate = float(input())
+total = deposit + term * ((deposit * annual_percentage_rate / 100) / 12)
+print(total)
